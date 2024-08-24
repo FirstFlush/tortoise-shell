@@ -1,4 +1,4 @@
-# Tortoise-Shell TOML cofig file
+# Tortoise-Shell TOML config file
 
 [db]
 DB_URL = "your_app.config.POSTGRES_DB"  # Enter the module path to your DB connection string

@@ -29,7 +29,7 @@ Tortoise Shell is inspired by the awesome Django-Extensions package, particularl
 
 1. **Create a Configuration File**:
 
-    Create a `tortoise_shell.toml` file in your project directory with the following content:
+    Create a `config.toml` file with the following content:
 
     ```toml
     [db]
