@@ -25,7 +25,7 @@ setup(
     python_requires='>=3.10',
     entry_points={
         'console_scripts': [
-            'tortoise-shell=tortoise_shell.tortoise_shell:main',
+            'tortoise-shell=tortoise_shell.main:main',
         ],
     },
     license='MIT',

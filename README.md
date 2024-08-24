@@ -84,5 +84,5 @@ Tortoise Shell is inspired by the awesome Django-Extensions package, particularl
 Once you've set up config.toml, simply run the shell script to start interacting with your models in IPython:
 
 ```bash
-./tortoise_shell.py
+tortoise-shell
 ```
