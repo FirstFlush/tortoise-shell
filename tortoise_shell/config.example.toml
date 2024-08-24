@@ -1,0 +1,9 @@
+# Tortoise-Shell TOML cofig file
+
+[db]
+DB_URL = "your_app.config.POSTGRES_DB"  # Enter the module path to your DB connection string
+                                        # This will look someting like:
+                                        # postgres://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}
+
+[models]
+all_models = "your_app.config.all_models"  # Enter the module path to your 'all_models' list.
