@@ -69,19 +69,9 @@ Tortoise Shell is inspired by the awesome Django-Extensions package, particularl
     }
     ```
 
-3. **Run Tortoise Shell**:
-
-    Use the provided IPython launcher script to start the shell with your models preloaded:
-
-    ```bash
-    ./tortoise_shell.py
-    ```
-
-    The script will automatically import your models and establish a connection to your database, allowing you to interact with your Tortoise ORM models effortlessly.
-
 ## Usage
 
-Once you've set up config.toml, simply run the shell script to start interacting with your models in IPython:
+Once you've set up config.toml, simply run the IPython launcher script to start the shell with your models preloaded:
 
 ```bash
 tortoise-shell
