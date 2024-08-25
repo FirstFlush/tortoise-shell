@@ -3,7 +3,7 @@ from tortoise import fields, models
 
 class User(models.Model):
 
-    full_name = fields.CharField(max_length=255)
+    full_name = fields.CharField(max_length=255, null=True)
     email = fields.CharField(max_length=255)
     is_active = fields.BooleanField(default=True)
 
